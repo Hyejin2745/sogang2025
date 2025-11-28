@@ -7,5 +7,6 @@
 *.tmp
 *.wdb
 *.svd
+*.vcd
 cosim_bfm_library/
 log/
