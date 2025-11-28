@@ -1,3 +1,8 @@
 *.log
 *.jou
-*.str
+*.backup
+*.bit
+*.bin
+*.tmp
+*.wdb
+*.svd
