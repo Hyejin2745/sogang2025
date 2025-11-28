@@ -1,7 +1,0 @@
-Running: xsim.dir/top/xsimk -simmode gui -testplusarg I2C_CSR=1 -testplusarg I2C_D7R8=1 -testplusarg I2C_D7R8_CONT=1 -testplusarg I2C_D7R16=1 -testplusarg I2C_D7R16_CONT=1 -wdb top.wdb -simrunnum 0 -socket 40767
-Design successfully loaded
-Design Loading Memory Usage: 33612 KB (Peak: 33936 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 115608 KB (Peak: 172880 KB)
-Simulation CPU Usage: 1620 ms

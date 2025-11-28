@@ -1,5 +1,5 @@
 *.log
 *.jou
 *.str
-./cosim_bfm_library
-
+cosim_bfm_library/
+log/
