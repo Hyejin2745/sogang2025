@@ -1,5 +1,11 @@
 *.log
 *.jou
 *.str
+*.backup
+*.bit
+*.bin
+*.tmp
+*.wdb
+*.svd
 cosim_bfm_library/
 log/
