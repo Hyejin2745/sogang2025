@@ -1,0 +1,40 @@
+
+riscv_cache_soc.sv@riscv_adki/hw/rtl/verilog
+     |
+     +-- riscv_cache_core.sv@riscv_adki/hw/rtl/verilog
+     |        |
+     |        +-- riscv_core.v@riscv/core/riscv
+     |        +-- icache.v@trop_cache_axi/src_v
+     |        |     |
+     |        |     +-- icache_tag_ram.v
+     |        |     +-- icache_data_ram.v
+     |        +-- dcache.v@trop_cache_axi/src_v
+     |              |
+     |              +-- dcache_if_pmem.v
+     |              |         |
+     |              |         +-- dcache_if_pmem_fifo
+     |              +-- dcache_pmem_mux.v
+     |              +-- dcache_mux.v
+     |              +-- dcache_axi.v
+     |              |         |
+     |              |         +-- dcache_axi_fifo
+     |              |         +-- dcache_axi_axi.v
+     |              +-- dcache_core.v
+     |                        |
+     |                        +-- dcach_core_tag_ram.v
+     |                        +-- dcach_core_data_ram.v
+     +-- axi_bus.sv
+     +-- axi_mem_dual.sv
+     +-- axi4_to_lite.sv
+     +-- apb_uart.sv
+     +-- apb_timer.sv
+
+// not yet
+riscv_tcm_soc.sv
+     |
+     +-- riscv_tcm.sv
+              |
+              +-- riscv_core.v@riscv/core/riscv
+              +-- tcm_mem
+              +-- dport_mux
+              +-- dport_axi

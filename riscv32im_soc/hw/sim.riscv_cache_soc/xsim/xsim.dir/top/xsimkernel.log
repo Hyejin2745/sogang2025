@@ -1,0 +1,4 @@
+Running: xsim.dir/top/xsimk -simmode gui -testplusarg ADDR_ENTRY=0x00000000 -testplusarg FILE_BIN=../../../sw.riscv/hello_world/uart_test.bin -testplusarg CHECK_BIN=1 -testplusarg BAUD_RATE=115200 -testplusarg VCD=1 -wdb top.wdb -simrunnum 0 -socket 43659
+Design successfully loaded
+Design Loading Memory Usage: 35884 KB (Peak: 35884 KB)
+Design Loading CPU Usage: 0 ms

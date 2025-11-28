@@ -1,0 +1,45 @@
+================================================================================
+[Build toolchain]
+
+$ cd riscv32_toolchain
+$ make
+
+================================================================================
+[Simulation]
+
+$ set_riscv
+$ pushd riscv32im_soc/sw.riscv/hello_world
+$ make sw
+$ popd
+$ set_vivado
+$ pushd riscv32im_soc/hw/sim.riscv_cache_soc/xsim
+$ make elab
+$ make sim FILE_BIN=../../../sw.riscv/hello_world/uart_test.bin
+$ popd
+
+================================================================================
+[Prepare bitstream for Emulation]
+
+$ set_vivado
+$ set_confmc
+$ pushd riscv32im_soc/hw/impl.ip_integrator/zed.confmc
+$ make
+  ...
+  tcl> syn_impl
+  ...
+  tcl> exit
+$ popd
+
+================================================================================
+[Emulation]
+
+$ set_confmc
+$ pushd riscv32im_soc/sw.confmc/elf_download
+$ make sw
+... make sure all connections of the FPGA board are ready
+...  - USB-JTAG and USB-UART
+...  - invoke 'GTKTerm' with 115200-baud, 8-bit, 1-stop, XON/XOFF
+$ make program BIT=../../hw/impl.ip_integrator/zed.confmc/design_riscv_cache_wrapper.bit
+$ make run ELF=../../sw.riscv/hello_world/uart_test.elf
+
+================================================================================

@@ -1,0 +1,20 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/tools/Xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(+0xbefecb) [0x77c2f2defecb]
+/tools/Xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(JVM_handle_linux_signal+0xd1) [0x77c2f2df6c81]
+/tools/Xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9/lib//server/libjvm.so(+0xbead23) [0x77c2f2dead23]
+/tools/Xilinx/Vivado/2021.2/tps/lnx64/javafx-sdk-11.0.2/lib/libjfxwebkit.so(+0x205ae18) [0x77c2b2a5ae18]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x77c358042520]
+/tools/Xilinx/Vivado/2021.2/lib/lnx64.o/Ubuntu/libstdc++.so.6(_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_+0x5b) [0x77c3588a5cfb]
+/tools/Xilinx/Vivado/2021.2/lib/lnx64.o/librdi_xicom_hw.so(std::pair<std::_Rb_tree_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned int> >, bool> std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned int>, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned int> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned int> > >::_M_emplace_unique<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, unsigned int&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, unsigned int&)+0x206) [0x77c2f7d5cee6]
+/tools/Xilinx/Vivado/2021.2/lib/lnx64.o/librdi_xicom_hw.so(XHWName::getHandle(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)+0x77) [0x77c2f7d5c7a7]
+/tools/Xilinx/Vivado/2021.2/lib/lnx64.o/librdi_xicom_hw.so(XHWName::XHWName(char const*)+0x69) [0x77c2f7d5cbc9]
+/tools/Xilinx/Vivado/2021.2/lib/lnx64.o/librdi_xicom_hw.so(XicomHWXicomNodeEvents::addNodeEvent(Channel*, void*)+0x15f) [0x77c2f7e8057f]
+/tools/Xilinx/Vivado/2021.2/lib/lnx64.o/librdi_xicom_hw.so(handle_protocol_message(Channel*)+0xbe5) [0x77c2f7ff2055]
+/tools/Xilinx/Vivado/2021.2/lib/lnx64.o/librdi_xicom_hw.so(+0x3e65a5) [0x77c2f7fe65a5]
+/tools/Xilinx/Vivado/2021.2/lib/lnx64.o/librdi_xicom_hw.so(run_event_loop()+0x26e) [0x77c2f7fe956e]
+/tools/Xilinx/Vivado/2021.2/lib/lnx64.o/librdi_xicom_hw.so(+0x3f482b) [0x77c2f7ff482b]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x77c358094ac3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x1268c0) [0x77c3581268c0]

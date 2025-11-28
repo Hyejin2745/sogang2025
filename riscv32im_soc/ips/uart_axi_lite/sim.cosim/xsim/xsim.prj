@@ -1,0 +1,8 @@
+sv work \
+        -i ${DIR_BENCH}\
+           ${DIR_BENCH}/top.sv\
+           ${DIR_BENCH}/tty.sv\
+        -i ${DIR_COSIM_INC}/verilog\
+           ${DIR_COSIM_INC}/verilog/cosim_bfm_axi.sv\
+        -i ${DIR_RTL}\
+           ${DIR_RTL}/uart_axi_lite.v

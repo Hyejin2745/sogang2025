@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Oct 20 13:29:29 2025
+# Process ID: 31746
+# Current directory: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache
+# Command line: vivado project_design_riscv_cache.xpr
+# Log file: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/vivado.log
+# Journal file: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/vivado.jou
+# Running On: sogang-500TGA-500SGA, OS: Linux, CPU Frequency: 2002.699 MHz, CPU Physical cores: 10, Host memory: 16429 MB
+#-----------------------------------------------------------
+start_gui
+open_project project_design_riscv_cache.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/rtl/verilog/riscv_cache_soc.v
+open_bd_design {/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.srcs/sources_1/bd/design_riscv_cache/design_riscv_cache.bd}
+open_bd_design {/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.srcs/sources_1/bd/design_riscv_cache/design_riscv_cache.bd}
+open_bd_design {/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.srcs/sources_1/bd/design_riscv_cache/design_riscv_cache.bd}
+update_module_reference design_riscv_cache_riscv_cache_soc_0_0
+update_module_reference design_riscv_cache_riscv_cache_soc_0_0
+add_files -norecurse /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/rtl/verilog/riscv_cache_soc.v
+import_files -norecurse /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/rtl/verilog/riscv_cache_soc.v
+import_files -norecurse /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/rtl/verilog/keypad_interface.v
+update_compile_order -fileset sources_1
+open_bd_design {/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.srcs/sources_1/bd/design_riscv_cache/design_riscv_cache.bd}
+open_bd_design {/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.srcs/sources_1/bd/design_riscv_cache/design_riscv_cache.bd}
+update_compile_order -fileset sources_1
+update_module_reference design_riscv_cache_riscv_cache_soc_0_0
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top riscv_cache_soc [current_fileset]
+set_property top_lib xil_defaultlib [current_fileset]
+set_property top_file /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.srcs/sources_1/imports/verilog/riscv_cache_soc.v [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+open_bd_design {/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.srcs/sources_1/bd/design_riscv_cache/design_riscv_cache.bd}
+open_bd_design {/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.srcs/sources_1/bd/design_riscv_cache/design_riscv_cache.bd}
+open_bd_design {/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.srcs/sources_1/bd/design_riscv_cache/design_riscv_cache.bd}
+open_bd_design {/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.srcs/sources_1/bd/design_riscv_cache/design_riscv_cache.bd}
+open_bd_design {/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.srcs/sources_1/bd/design_riscv_cache/design_riscv_cache.bd}
+open_bd_design {/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.srcs/sources_1/bd/design_riscv_cache/design_riscv_cache.bd}

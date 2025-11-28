@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Nov 26 08:26:04 2025
+# Process ID: 1109735
+# Current directory: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.runs/design_riscv_cache_axi_bram_ctrl_0_0_synth_1
+# Command line: vivado -log design_riscv_cache_axi_bram_ctrl_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_riscv_cache_axi_bram_ctrl_0_0.tcl
+# Log file: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.runs/design_riscv_cache_axi_bram_ctrl_0_0_synth_1/design_riscv_cache_axi_bram_ctrl_0_0.vds
+# Journal file: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.runs/design_riscv_cache_axi_bram_ctrl_0_0_synth_1/vivado.jou
+# Running On: sogang-500TGA-500SGA, OS: Linux, CPU Frequency: 1142.972 MHz, CPU Physical cores: 10, Host memory: 16429 MB
+#-----------------------------------------------------------
+source design_riscv_cache_axi_bram_ctrl_0_0.tcl -notrace

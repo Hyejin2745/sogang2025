@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Nov 26 08:49:49 2025
+# Process ID: 1188057
+# Current directory: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/rtl
+# Command line: vivado -mode batch -source create_rtl_project.tcl
+# Log file: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/rtl/vivado.log
+# Journal file: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/rtl/vivado.jou
+# Running On: sogang-500TGA-500SGA, OS: Linux, CPU Frequency: 799.628 MHz, CPU Physical cores: 10, Host memory: 16429 MB
+#-----------------------------------------------------------
+source create_rtl_project.tcl
+# set project_name "riscv_rtl_project"
+# set project_dir "./rtl_project"
+# set part "xc7z020clg484-1"
+# create_project $project_name $project_dir -part $part -force
+# add_files -norecurse {
+#     ./verilog/riscv_cache_soc_top.v
+#     ./verilog/riscv_cache_soc.v
+#     ./verilog/riscv_cache_core.v
+#     ./verilog/rstmgra.v
+# }
+# set_property ip_repo_paths {
+#     ../../ips/riscv
+#     ../../ips/axi_lite
+#     ../../ips/axi_switch
+#     ../../ips/axi4_to_lite
+#     ../../ips/gpio_axi_lite
+#     ../../ips/uart_axi_lite
+#     ../../ips/timer_axi_lite
+#     ../../ips/pic_axi_lite
+#     ../../ips/ex_i2c_master_axi_lite
+# } [current_project]
+# update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/axi_lite'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/axi_switch'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/axi4_to_lite'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/uart_axi_lite'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/timer_axi_lite'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/pic_axi_lite'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2021.2/data/ip'.
+# add_files -fileset constrs_1 -norecurse {
+#     ../impl.ip_integrator/zed.confmc/xdc/fpga_zed.xdc
+#     ../impl.ip_integrator/zed.confmc/xdc/fpga_etc.xdc
+# }
+# set_property top riscv_cache_soc_top [current_fileset]
+# set_property strategy Vivado_Synthesis_Defaults [get_runs synth_1]
+ERROR: [Common 17-69] Command failed: Strategy 'Vivado_Synthesis_Defaults' is not supported by the flow 'Vivado Synthesis 2021'
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 26 08:49:56 2025...

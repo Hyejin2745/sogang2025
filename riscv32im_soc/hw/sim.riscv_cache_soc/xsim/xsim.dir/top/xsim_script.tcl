@@ -1,0 +1,1 @@
+xsim {top} -testplusarg ADDR_ENTRY=0x00000000 -testplusarg FILE_BIN=../../../sw.riscv/hello_world/uart_test.bin -testplusarg CHECK_BIN=1 -testplusarg BAUD_RATE=115200 -testplusarg VCD=1 -autoloadwcfg -tclbatch {xsim_run.tcl}

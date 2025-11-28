@@ -1,0 +1,150 @@
+
+doorlock.elf:     file format elf32-littleriscv
+
+SYMBOL TABLE:
+00000000 l    d  .text	00000000 .text
+000046c0 l    d  .rodata	00000000 .rodata
+00004b98 l    d  .data	00000000 .data
+00004c00 l    d  .bss	00000000 .bss
+00000000 l    d  .riscv.attributes	00000000 .riscv.attributes
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loclists	00000000 .debug_loclists
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_rnglists	00000000 .debug_rnglists
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_line_str	00000000 .debug_line_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    df *ABS*	00000000 start.o
+00000024 l       .text	00000000 clear_bss_end
+0000001c l       .text	00000000 clear_bss32
+00000028 l       .text	00000000 main_entry
+00000038 l       .text	00000000 terminate
+00000000 l    df *ABS*	00000000 main.c
+00000000 l    df *ABS*	00000000 my_printf.c
+00000000 l    df *ABS*	00000000 uart_api.c
+00004ba8 l     O .data	00000004 UART_ADDR_BASE
+00004bac l     O .data	00000004 UART_VERSION
+00004bb0 l     O .data	00000004 UART_NAME
+00004bb4 l     O .data	00000004 UART_CONTROL
+00004bb8 l     O .data	00000004 UART_STATUS
+00004bbc l     O .data	00000004 UART_TX
+00004bc0 l     O .data	00000004 UART_RX
+00004bc4 l     O .data	00000004 UART_CLK_FREQ
+00000000 l    df *ABS*	00000000 i2c_master_api.c
+00004c00 l     O .bss	00000004 current_i2c_id
+00004bf8 l     O .data	00000004 frx_num
+00004bfc l     O .data	00000004 ftx_num
+000049bc l     O .rodata	0000000e __FUNCTION__.7
+000049cc l     O .rodata	0000000f __FUNCTION__.6
+000049dc l     O .rodata	0000000f __FUNCTION__.5
+000049ec l     O .rodata	00000010 __FUNCTION__.4
+000049fc l     O .rodata	0000000f __FUNCTION__.3
+00004a0c l     O .rodata	00000010 __FUNCTION__.2
+00004a1c l     O .rodata	00000010 __FUNCTION__.1
+00004a2c l     O .rodata	00000011 __FUNCTION__.0
+00000000 l    df *ABS*	00000000 adddf3.c
+00000000 l    df *ABS*	00000000 divdf3.c
+00000000 l    df *ABS*	00000000 fixdfsi.c
+00000000 l    df *ABS*	00000000 fixunsdfsi.c
+00000000 l    df *ABS*	00000000 floatunsidf.c
+00000000 l    df *ABS*	00000000 eqsf2.c
+00000000 l    df *ABS*	00000000 lesf2.c
+00000000 l    df *ABS*	00000000 mulsf3.c
+00000000 l    df *ABS*	00000000 subsf3.c
+00000000 l    df *ABS*	00000000 fixsfsi.c
+00000000 l    df *ABS*	00000000 floatsisf.c
+00000000 l    df *ABS*	00000000 floatunsisf.c
+00000000 l    df *ABS*	00000000 extendsfdf2.c
+00000000 l    df *ABS*	00000000 truncdfsf2.c
+00000000 l    df *ABS*	00000000 libgcc2.c
+00000000 l    df *ABS*	00000000 libgcc2.c
+00000e98 g     F .text	00000094 uart_put_int
+000046c0 g       .rodata	00000000 __global_pointer$
+00000478 g     F .text	00000070 my_printf
+00002890 g     F .text	0000002c i2c_get_clk_div
+000041d0 g     F .text	00000070 .hidden __fixsfsi
+000022ac g     F .text	00000048 i2c_disable
+00001e44 g     F .text	000001a8 i2c_write_d7r16
+00003da0 g     F .text	00000430 .hidden __subsf3
+00004bec g     O .data	00000004 CSRA_I2C_RUN
+000039d8 g     F .text	000000ac .hidden __lesf2
+000022f4 g     F .text	0000004c i2c_sel
+00004c00 g       .bss	00000000 _bss_start
+00003874 g     F .text	0000007c .hidden __fixunsdfsi
+00002758 g     F .text	000000a8 i2c_get_config
+00004bd8 g     O .data	00000004 CSRA_I2C_CONFIG
+00020000 g       .bss	00000000 _memory_end
+00000414 g     F .text	0000002c my_getchar
+00004424 g     F .text	000000dc .hidden __extendsfdf2
+000025a8 g     F .text	000001b0 i2c_csr_check
+00002988 g     F .text	00000794 .hidden __adddf3
+00003970 g     F .text	00000068 .hidden __nesf2
+00002864 g     F .text	0000002c i2c_get_clk_freq
+00002834 g     F .text	00000030 i2c_get_sel
+000038f0 g     F .text	00000080 .hidden __floatunsidf
+00004c04 g       .bss	00000000 _bss_end
+00002968 g     F .text	00000020 i2c_get_addr
+000028bc g     F .text	000000ac i2c_set_addr
+00004bc8 g     O .data	00000004 CSRA_I2C_BASE
+000037f4 g     F .text	00000080 .hidden __fixdfsi
+00004bd0 g     O .data	00000004 CSRA_I2C_CONTROL
+000021f4 g     F .text	00000070 i2c_rst
+000005dc g     F .text	00000178 my_printflt
+00000db4 g     F .text	00000060 uart_put_char
+00001940 g     F .text	0000021c i2c_read_d7r16
+00002524 g     F .text	00000050 i2c_csr_read
+00004bcc g     O .data	00000004 CSRA_I2C_VERSION
+00004678 g     F .text	00000048 .hidden __clzsi2
+00000d74 g     F .text	00000040 uart_get_char
+00000aa4 g     F .text	00000144 uart_init
+00004be8 g     O .data	00000004 CSRA_I2C_CLKDIV
+00000000 g       .text	00000000 _start
+00004240 g     F .text	00000108 .hidden __floatsisf
+00001b5c g     F .text	000002e8 i2c_readN_d7r16
+000003a8 g     F .text	0000003c my_putchar
+00003970 g     F .text	00000068 .hidden __eqsf2
+0000114c g     F .text	000001ec i2c_read_d7r8
+00001338 g     F .text	000002b8 i2c_readN_d7r8
+00000be8 g     F .text	0000018c uart_init_ext
+00000fe0 g     F .text	00000050 uart_cler_tx_irq
+00004be0 g     O .data	00000004 CSRA_I2C_CLK_FREQ
+00004bf0 g     O .data	00000004 CSRA_I2C_TX_DATA
+0000311c g     F .text	000006d8 .hidden __divdf3
+00000e14 g     F .text	00000084 uart_put_string
+00000090 g     F .text	000002d8 main
+00001768 g     F .text	000001d8 i2c_writeN_d7r8
+000039d8 g     F .text	000000ac .hidden __ltsf2
+00001030 g     F .text	00000050 uart_cler_rx_irq
+00002800 g     F .text	00000034 i2c_get_busy
+00004500 g     F .text	00000178 .hidden __truncdfsf2
+0000112c g     F .text	00000020 uart_get_addr
+00020000 g       *ABS*	00000000 _stack_end
+000004e8 g     F .text	000000f4 my_printn
+00003a84 g     F .text	0000031c .hidden __mulsf3
+00000048 g     F .text	00000048 delay
+00004a94 g     O .rodata	00000100 .hidden __clz_tab
+000003e4 g     F .text	00000030 my_getc
+00001fec g     F .text	00000208 i2c_writeN_d7r16
+00002410 g     F .text	00000114 i2c_init
+00000440 g     F .text	00000038 my_puts
+000015f0 g     F .text	00000178 i2c_write_d7r8
+00004ba0 g       .data	00000000 fromhost
+00004b98 g       .data	00000000 tohost
+000010b4 g     F .text	00000078 uart_set_addr
+00000f2c g     F .text	000000b4 uart_put_hex
+00004348 g     F .text	000000dc .hidden __floatunsisf
+00004bd4 g     O .data	00000004 CSRA_I2C_STATUS
+00000368 g     F .text	00000040 my_putc
+00002264 g     F .text	00000048 i2c_enable
+00002340 g     F .text	000000d0 i2c_config
+00004bdc g     O .data	00000004 CSRA_I2C_SEL
+00002574 g     F .text	00000034 i2c_csr_write
+00004bf4 g     O .data	00000004 CSRA_I2C_RX_DATA
+00000754 g     F .text	00000350 my_vprintf
+00001080 g     F .text	00000034 uart_get_clk_freq
+00004be4 g     O .data	00000004 CSRA_I2C_SPEED
+
+

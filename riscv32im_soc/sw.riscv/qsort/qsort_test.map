@@ -1,0 +1,434 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+                              obj/uart_api.o (__adddf3)
+/home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+                              obj/uart_api.o (__fixdfsi)
+/home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+                              obj/uart_api.o (__floatunsidf)
+/home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(eqsf2.o)
+                              obj/my_printf.o (__nesf2)
+/home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(lesf2.o)
+                              obj/my_printf.o (__ltsf2)
+/home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+                              obj/my_printf.o (__mulsf3)
+/home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(subsf3.o)
+                              obj/my_printf.o (__subsf3)
+/home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixsfsi.o)
+                              obj/my_printf.o (__fixsfsi)
+/home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+                              obj/my_printf.o (__floatsisf)
+/home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(truncdfsf2.o)
+                              obj/my_printf.o (__truncdfsf2)
+/home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                              /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o) (__clzsi2)
+/home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+                              /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o) (__clz_tab)
+
+There are no discarded input sections
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x00000000         0x00020000         axrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD obj/start.o
+LOAD obj/main.o
+LOAD obj/qsort.o
+LOAD obj/my_printf.o
+LOAD obj/uart_api.o
+
+.text           0x00000000     0x27a8
+                [!provide]                        PROVIDE (_text_start = .)
+ *(.text.init)
+ .text.init     0x00000000       0x48 obj/start.o
+                0x00000000                _start
+ *(.tohost)
+ *(.fromhost)
+ *(.text .text.*)
+ .text          0x00000048        0x0 obj/start.o
+ .text          0x00000048       0x6c obj/main.o
+                0x00000048                main
+ .text          0x000000b4      0x4e0 obj/qsort.o
+                0x000000b4                qsort_main
+                0x00000130                qsort
+                0x000001b0                partition
+                0x000002d4                swap
+                0x00000354                make_data
+                0x000003cc                test
+                0x00000480                output
+                0x00000518                rand
+                0x0000056c                srand
+ .text          0x00000594      0x73c obj/my_printf.o
+                0x00000594                my_putc
+                0x000005d4                my_putchar
+                0x00000610                my_getc
+                0x00000640                my_getchar
+                0x0000066c                my_puts
+                0x000006a4                my_printf
+                0x00000714                my_printn
+                0x00000808                my_printflt
+                0x00000980                my_vprintf
+ .text          0x00000cd0      0x6a8 obj/uart_api.o
+                0x00000cd0                uart_init
+                0x00000e14                uart_init_ext
+                0x00000fa0                uart_get_char
+                0x00000fe0                uart_put_char
+                0x00001040                uart_put_string
+                0x000010c4                uart_put_int
+                0x00001158                uart_put_hex
+                0x0000120c                uart_cler_tx_irq
+                0x0000125c                uart_cler_rx_irq
+                0x000012ac                uart_get_clk_freq
+                0x000012e0                uart_set_addr
+                0x00001358                uart_get_addr
+ .text          0x00001378      0x794 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+                0x00001378                __adddf3
+ .text          0x00001b0c       0x80 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+                0x00001b0c                __fixdfsi
+ .text          0x00001b8c       0x80 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+                0x00001b8c                __floatunsidf
+ .text          0x00001c0c       0x68 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(eqsf2.o)
+                0x00001c0c                __nesf2
+                0x00001c0c                __eqsf2
+ .text          0x00001c74       0xac /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(lesf2.o)
+                0x00001c74                __lesf2
+                0x00001c74                __ltsf2
+ .text          0x00001d20      0x31c /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+                0x00001d20                __mulsf3
+ .text          0x0000203c      0x430 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(subsf3.o)
+                0x0000203c                __subsf3
+ .text          0x0000246c       0x70 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixsfsi.o)
+                0x0000246c                __fixsfsi
+ .text          0x000024dc      0x108 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+                0x000024dc                __floatsisf
+ .text          0x000025e4      0x178 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(truncdfsf2.o)
+                0x000025e4                __truncdfsf2
+ .text          0x0000275c       0x48 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                0x0000275c                __clzsi2
+ .text          0x000027a4        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+                [!provide]                        PROVIDE (_text_end = .)
+                0x000027a8                        . = ALIGN (0x8)
+ *fill*         0x000027a4        0x4 
+                0x000027a8                        . = ALIGN (0x8)
+                0x000027a8                        PROVIDE (__global_pointer$ = .)
+
+.rodata         0x000027a8      0x200
+                0x000027a8                        . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_rodata_start = .)
+ *(.rodata .rodata.*)
+ .rodata        0x000027a8        0xb obj/main.o
+ *fill*         0x000027b3        0x1 
+ .rodata        0x000027b4       0x76 obj/qsort.o
+ *fill*         0x0000282a        0x2 
+ .rodata        0x0000282c       0x70 obj/my_printf.o
+ *fill*         0x0000289c        0x4 
+ .rodata        0x000028a0        0x8 obj/uart_api.o
+ .rodata        0x000028a8      0x100 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+                0x000028a8                __clz_tab
+ *(.srodata .srodata.*)
+                [!provide]                        PROVIDE (_rodata_end = .)
+                0x000029a8                        . = ALIGN (0x8)
+
+.rela.dyn       0x000029a8        0x0
+ .rela.text.init
+                0x000029a8        0x0 obj/start.o
+
+.data           0x000029a8       0x38
+                0x000029a8                        . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_data_start = .)
+ *(.data .data.*)
+ .data          0x000029a8       0x10 obj/start.o
+                0x000029a8                tohost
+                0x000029b0                fromhost
+ .data          0x000029b8        0x0 obj/main.o
+ .data          0x000029b8        0x0 obj/qsort.o
+ .data          0x000029b8        0x0 obj/my_printf.o
+ .data          0x000029b8        0x0 obj/uart_api.o
+ .data          0x000029b8        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .data          0x000029b8        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .data          0x000029b8        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .data          0x000029b8        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(eqsf2.o)
+ .data          0x000029b8        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(lesf2.o)
+ .data          0x000029b8        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .data          0x000029b8        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(subsf3.o)
+ .data          0x000029b8        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixsfsi.o)
+ .data          0x000029b8        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .data          0x000029b8        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(truncdfsf2.o)
+ .data          0x000029b8        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .data          0x000029b8        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+ *(.sdata .sdata.*)
+ .sdata         0x000029b8        0x8 obj/qsort.o
+                0x000029b8                size
+                0x000029bc                _Randseed
+ .sdata         0x000029c0       0x20 obj/uart_api.o
+                [!provide]                        PROVIDE (_data_end = .)
+                0x000029e0                        . = ALIGN (0x8)
+
+.bss            0x000029e0      0x100
+                0x000029e0                        . = ALIGN (0x8)
+                0x000029e0                        PROVIDE (_bss_start = .)
+ *(.bss .bss.*)
+ .bss           0x000029e0        0x0 obj/start.o
+ .bss           0x000029e0        0x0 obj/main.o
+ .bss           0x000029e0      0x100 obj/qsort.o
+                0x000029e0                DP
+ .bss           0x00002ae0        0x0 obj/my_printf.o
+ .bss           0x00002ae0        0x0 obj/uart_api.o
+ .bss           0x00002ae0        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .bss           0x00002ae0        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .bss           0x00002ae0        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .bss           0x00002ae0        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(eqsf2.o)
+ .bss           0x00002ae0        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(lesf2.o)
+ .bss           0x00002ae0        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .bss           0x00002ae0        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(subsf3.o)
+ .bss           0x00002ae0        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixsfsi.o)
+ .bss           0x00002ae0        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .bss           0x00002ae0        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(truncdfsf2.o)
+ .bss           0x00002ae0        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .bss           0x00002ae0        0x0 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+ *(.sbss .sbss.*)
+                0x00002ae0                        PROVIDE (_bss_end = .)
+                0x00002ae0                        . = ALIGN (0x8)
+                [!provide]                        PROVIDE (_memory_start = ORIGIN (RAM))
+                0x00020000                        PROVIDE (_memory_end = (ORIGIN (RAM) + LENGTH (RAM)))
+                0x00020000                        PROVIDE (_stack_end = _memory_end)
+START GROUP
+LOAD /home/sogang/work/riscv32im/riscv32-unknown-elf/lib/libc.a
+LOAD /home/sogang/work/riscv32im/riscv32-unknown-elf/lib/libm.a
+LOAD /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a
+END GROUP
+OUTPUT(qsort_test.elf elf32-littleriscv)
+
+.riscv.attributes
+                0x00000000       0x2a
+ .riscv.attributes
+                0x00000000       0x28 obj/start.o
+ .riscv.attributes
+                0x00000028       0x2a obj/main.o
+ .riscv.attributes
+                0x00000052       0x2a obj/qsort.o
+ .riscv.attributes
+                0x0000007c       0x2a obj/my_printf.o
+ .riscv.attributes
+                0x000000a6       0x2a obj/uart_api.o
+ .riscv.attributes
+                0x000000d0       0x2a /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .riscv.attributes
+                0x000000fa       0x2a /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .riscv.attributes
+                0x00000124       0x2a /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .riscv.attributes
+                0x0000014e       0x2a /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(eqsf2.o)
+ .riscv.attributes
+                0x00000178       0x2a /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(lesf2.o)
+ .riscv.attributes
+                0x000001a2       0x2a /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .riscv.attributes
+                0x000001cc       0x2a /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(subsf3.o)
+ .riscv.attributes
+                0x000001f6       0x2a /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixsfsi.o)
+ .riscv.attributes
+                0x00000220       0x2a /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .riscv.attributes
+                0x0000024a       0x2a /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(truncdfsf2.o)
+ .riscv.attributes
+                0x00000274       0x2a /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .riscv.attributes
+                0x0000029e       0x2a /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.comment        0x00000000        0xf
+ .comment       0x00000000        0xf obj/main.o
+                                 0x10 (size before relaxing)
+ .comment       0x0000000f       0x10 obj/qsort.o
+ .comment       0x0000000f       0x10 obj/my_printf.o
+ .comment       0x0000000f       0x10 obj/uart_api.o
+ .comment       0x0000000f       0x10 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .comment       0x0000000f       0x10 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .comment       0x0000000f       0x10 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .comment       0x0000000f       0x10 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(eqsf2.o)
+ .comment       0x0000000f       0x10 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(lesf2.o)
+ .comment       0x0000000f       0x10 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .comment       0x0000000f       0x10 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(subsf3.o)
+ .comment       0x0000000f       0x10 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixsfsi.o)
+ .comment       0x0000000f       0x10 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .comment       0x0000000f       0x10 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(truncdfsf2.o)
+ .comment       0x0000000f       0x10 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .comment       0x0000000f       0x10 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_info     0x00000000     0x1bc0
+ .debug_info    0x00000000      0x501 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_info    0x00000501      0x1ca /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_info    0x000006cb      0x25d /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_info    0x00000928      0x1fb /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(eqsf2.o)
+ .debug_info    0x00000b23      0x201 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(lesf2.o)
+ .debug_info    0x00000d24      0x348 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_info    0x0000106c      0x2ec /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(subsf3.o)
+ .debug_info    0x00001358      0x1b1 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixsfsi.o)
+ .debug_info    0x00001509      0x213 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_info    0x0000171c      0x26e /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(truncdfsf2.o)
+ .debug_info    0x0000198a      0x150 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .debug_info    0x00001ada       0xe6 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_abbrev   0x00000000      0xecc
+ .debug_abbrev  0x00000000      0x176 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_abbrev  0x00000176      0x15d /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_abbrev  0x000002d3      0x163 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_abbrev  0x00000436      0x12d /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(eqsf2.o)
+ .debug_abbrev  0x00000563      0x15f /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(lesf2.o)
+ .debug_abbrev  0x000006c2      0x150 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_abbrev  0x00000812      0x164 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(subsf3.o)
+ .debug_abbrev  0x00000976      0x15d /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixsfsi.o)
+ .debug_abbrev  0x00000ad3      0x16d /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_abbrev  0x00000c40      0x152 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(truncdfsf2.o)
+ .debug_abbrev  0x00000d92       0xca /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00000e5c       0x70 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_loclists
+                0x00000000     0x19d9
+ .debug_loclists
+                0x00000000      0xabf /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_loclists
+                0x00000abf       0xcf /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_loclists
+                0x00000b8e       0xb4 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_loclists
+                0x00000c42       0x2c /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(eqsf2.o)
+ .debug_loclists
+                0x00000c6e       0x8f /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(lesf2.o)
+ .debug_loclists
+                0x00000cfd      0x356 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_loclists
+                0x00001053      0x588 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(subsf3.o)
+ .debug_loclists
+                0x000015db       0x8e /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixsfsi.o)
+ .debug_loclists
+                0x00001669      0x13d /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_loclists
+                0x000017a6      0x1ef /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(truncdfsf2.o)
+ .debug_loclists
+                0x00001995       0x44 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_aranges  0x00000000      0x178
+ .debug_aranges
+                0x00000000       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_aranges
+                0x00000020       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_aranges
+                0x00000040       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_aranges
+                0x00000060       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(eqsf2.o)
+ .debug_aranges
+                0x00000080       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(lesf2.o)
+ .debug_aranges
+                0x000000a0       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_aranges
+                0x000000c0       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(subsf3.o)
+ .debug_aranges
+                0x000000e0       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixsfsi.o)
+ .debug_aranges
+                0x00000100       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_aranges
+                0x00000120       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(truncdfsf2.o)
+ .debug_aranges
+                0x00000140       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x00000160       0x18 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_rnglists
+                0x00000000      0x2e8
+ .debug_rnglists
+                0x00000000       0xc7 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_rnglists
+                0x000000c7       0x13 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_rnglists
+                0x000000da       0x2f /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_rnglists
+                0x00000109       0x1d /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(eqsf2.o)
+ .debug_rnglists
+                0x00000126       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(lesf2.o)
+ .debug_rnglists
+                0x00000146       0x7d /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_rnglists
+                0x000001c3       0x96 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(subsf3.o)
+ .debug_rnglists
+                0x00000259       0x13 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixsfsi.o)
+ .debug_rnglists
+                0x0000026c       0x44 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_rnglists
+                0x000002b0       0x22 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(truncdfsf2.o)
+ .debug_rnglists
+                0x000002d2       0x16 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_line     0x00000000     0x3a88
+ .debug_line    0x00000000     0x1224 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_line    0x00001224      0x1db /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_line    0x000013ff      0x239 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_line    0x00001638      0x22f /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(eqsf2.o)
+ .debug_line    0x00001867      0x2df /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(lesf2.o)
+ .debug_line    0x00001b46      0x7e9 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_line    0x0000232f      0xc5b /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(subsf3.o)
+ .debug_line    0x00002f8a      0x209 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixsfsi.o)
+ .debug_line    0x00003193      0x357 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_line    0x000034ea      0x480 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(truncdfsf2.o)
+ .debug_line    0x0000396a       0xdf /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .debug_line    0x00003a49       0x3f /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_str      0x00000000      0x500
+ .debug_str     0x00000000      0x500 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+                                0x2a7 (size before relaxing)
+ .debug_str     0x00000500      0x1b4 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_str     0x00000500      0x24c /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_str     0x00000500      0x19d /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(eqsf2.o)
+ .debug_str     0x00000500      0x1c1 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(lesf2.o)
+ .debug_str     0x00000500      0x28f /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_str     0x00000500      0x26a /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(subsf3.o)
+ .debug_str     0x00000500      0x1a2 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixsfsi.o)
+ .debug_str     0x00000500      0x232 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_str     0x00000500      0x233 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(truncdfsf2.o)
+ .debug_str     0x00000500      0x1d1 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .debug_str     0x00000500      0x1b4 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_line_str
+                0x00000000      0x30c
+ .debug_line_str
+                0x00000000      0x30c /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+                                0x198 (size before relaxing)
+ .debug_line_str
+                0x0000030c      0x1a5 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_line_str
+                0x0000030c      0x1b1 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_line_str
+                0x0000030c      0x1a5 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(eqsf2.o)
+ .debug_line_str
+                0x0000030c      0x1a5 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(lesf2.o)
+ .debug_line_str
+                0x0000030c      0x1a2 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_line_str
+                0x0000030c      0x198 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(subsf3.o)
+ .debug_line_str
+                0x0000030c      0x1a5 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixsfsi.o)
+ .debug_line_str
+                0x0000030c      0x1ab /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_line_str
+                0x0000030c      0x1ad /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(truncdfsf2.o)
+ .debug_line_str
+                0x0000030c      0x18c /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .debug_line_str
+                0x0000030c      0x18c /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_frame    0x00000000      0x1fc
+ .debug_frame   0x00000000       0x44 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_frame   0x00000044       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_frame   0x00000064       0x34 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_frame   0x00000098       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(eqsf2.o)
+ .debug_frame   0x000000b8       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(lesf2.o)
+ .debug_frame   0x000000d8       0x4c /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_frame   0x00000124       0x40 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(subsf3.o)
+ .debug_frame   0x00000164       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(fixsfsi.o)
+ .debug_frame   0x00000184       0x38 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_frame   0x000001bc       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(truncdfsf2.o)
+ .debug_frame   0x000001dc       0x20 /home/sogang/work/riscv32im/lib/gcc/riscv32-unknown-elf/13.2.0/rv32im/ilp32/libgcc.a(_clzsi2.o)

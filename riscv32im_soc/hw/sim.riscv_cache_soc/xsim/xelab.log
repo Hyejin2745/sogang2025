@@ -1,0 +1,264 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2021.2/bin/unwrapped/lnx64.o/xelab -prj xsim.prj -debug typical top -s top 
+Multi-threading is on. Using 14 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/sim.riscv_cache_soc/xsim/sim_primitives.v" into library work
+INFO: [VRFC 10-311] analyzing module IOBUF
+INFO: [VRFC 10-311] analyzing module IBUF
+INFO: [VRFC 10-311] analyzing module OBUF
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/bench.riscv_cache_soc/verilog/top.sv" into library work
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/bench.riscv_cache_soc/verilog/tester.sv" into library work
+INFO: [VRFC 10-311] analyzing module tester
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/bench.riscv_cache_soc/verilog/tty.sv" into library work
+INFO: [VRFC 10-311] analyzing module tty
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/bench.riscv_cache_soc/verilog/i2c_slave.v" into library work
+INFO: [VRFC 10-311] analyzing module i2c_slave_if
+INFO: [VRFC 10-311] analyzing module i2c_slave_mem
+INFO: [VRFC 10-311] analyzing module i2c_slave
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/bench.riscv_cache_soc/verilog/i2c_slave_if.v" into library work
+INFO: [VRFC 10-311] analyzing module i2c_slave_if
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'i2c_slave_if' [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/bench.riscv_cache_soc/verilog/i2c_slave_if.v:14]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/bench.riscv_cache_soc/verilog/i2c_slave_mem.v" into library work
+INFO: [VRFC 10-311] analyzing module i2c_slave_mem
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'i2c_slave_mem' [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/bench.riscv_cache_soc/verilog/i2c_slave_mem.v:14]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/axi_switch/rtl/verilog/axi_switch_m3s3.v" into library work
+INFO: [VRFC 10-311] analyzing module axi_switch_m3s3
+INFO: [VRFC 10-311] analyzing module axi_arbiter_mtos_m3
+INFO: [VRFC 10-311] analyzing module axi_fifo_sync
+INFO: [VRFC 10-311] analyzing module axi_arbiter_stom_s3
+INFO: [VRFC 10-311] analyzing module axi_mtos_m3
+INFO: [VRFC 10-311] analyzing module axi_stom_s3
+INFO: [VRFC 10-311] analyzing module axi_default_slave
+INFO: [VRFC 10-311] analyzing module axi_wid
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/mem_axi/rtl/verilog/mem_axi.v" into library work
+INFO: [VRFC 10-311] analyzing module mem_axi
+INFO: [VRFC 10-311] analyzing module mem_axi_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/axi4_to_lite/rtl/verilog/axi4_to_lite_fifo_sync.v" into library work
+INFO: [VRFC 10-311] analyzing module axi4_to_lite_fifo_sync
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/axi4_to_lite/rtl/verilog/axi4_to_lite.v" into library work
+INFO: [VRFC 10-311] analyzing module axi4_to_lite
+INFO: [VRFC 10-311] analyzing module axi4_to_lite_write
+INFO: [VRFC 10-311] analyzing module axi4_to_lite_read
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/axi_lite/rtl/verilog/amba_axi_lite_m6.v" into library work
+INFO: [VRFC 10-311] analyzing module amba_axi_lite_m6
+INFO: [VRFC 10-311] analyzing module amba_axi_lite_m6_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/pic_axi_lite/rtl/verilog/pic_axi_lite.v" into library work
+INFO: [VRFC 10-311] analyzing module pic_axi_lite_if
+INFO: [VRFC 10-311] analyzing module pic_core
+INFO: [VRFC 10-311] analyzing module pic_axi_lite
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/timer_axi_lite/rtl/verilog/timer_axi_lite.v" into library work
+INFO: [VRFC 10-311] analyzing module timer_axi_lite_if
+INFO: [VRFC 10-311] analyzing module timer_tick
+INFO: [VRFC 10-311] analyzing module timer_axi_lite
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/uart_axi_lite/rtl/verilog/uart_axi_lite.v" into library work
+INFO: [VRFC 10-311] analyzing module uart_axi_lite_if
+INFO: [VRFC 10-311] analyzing module uart_csr
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-311] analyzing module uart_fifo_sync_wt
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-311] analyzing module uart_core
+INFO: [VRFC 10-311] analyzing module uart_axi_lite
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/rtl/verilog/riscv_cache_soc.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_cache_soc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/rtl/verilog/riscv_cache_core.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_cache_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/top_cache_axi/src_v/dcache_axi_axi.v" into library work
+INFO: [VRFC 10-311] analyzing module dcache_axi_axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/top_cache_axi/src_v/dcache_axi.v" into library work
+INFO: [VRFC 10-311] analyzing module dcache_axi
+INFO: [VRFC 10-311] analyzing module dcache_axi_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/top_cache_axi/src_v/dcache_core_data_ram.v" into library work
+INFO: [VRFC 10-311] analyzing module dcache_core_data_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/top_cache_axi/src_v/dcache_core_tag_ram.v" into library work
+INFO: [VRFC 10-311] analyzing module dcache_core_tag_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/top_cache_axi/src_v/dcache_core.v" into library work
+INFO: [VRFC 10-311] analyzing module dcache_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/top_cache_axi/src_v/dcache_if_pmem.v" into library work
+INFO: [VRFC 10-311] analyzing module dcache_if_pmem
+INFO: [VRFC 10-311] analyzing module dcache_if_pmem_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/top_cache_axi/src_v/dcache_mux.v" into library work
+INFO: [VRFC 10-311] analyzing module dcache_mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/top_cache_axi/src_v/dcache_pmem_mux.v" into library work
+INFO: [VRFC 10-311] analyzing module dcache_pmem_mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/top_cache_axi/src_v/dcache.v" into library work
+INFO: [VRFC 10-311] analyzing module dcache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/top_cache_axi/src_v/icache_data_ram.v" into library work
+INFO: [VRFC 10-311] analyzing module icache_data_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/top_cache_axi/src_v/icache_tag_ram.v" into library work
+INFO: [VRFC 10-311] analyzing module icache_tag_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/top_cache_axi/src_v/icache.v" into library work
+INFO: [VRFC 10-311] analyzing module icache
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_alu.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_core.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_csr_regfile.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_csr_regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_csr.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_csr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_decoder.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_decode.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_decode
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_divider.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_divider
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_exec.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_exec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_fetch.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_fetch
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_issue.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_issue
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_lsu.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_lsu
+INFO: [VRFC 10-311] analyzing module riscv_lsu_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_mmu.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_mmu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_multiplier.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_multiplier
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_pipe_ctrl.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_pipe_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_regfile.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_regfile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_trace_sim.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_trace_sim
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/riscv/core/riscv/riscv_xilinx_2r1w.v" into library work
+INFO: [VRFC 10-311] analyzing module riscv_xilinx_2r1w
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/rtl/verilog/gpio_axi_lite.v" into library work
+INFO: [VRFC 10-311] analyzing module gpio_axi_lite_if
+INFO: [VRFC 10-311] analyzing module gpio_axi_lite
+INFO: [VRFC 10-311] analyzing module gpio_csr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/rtl/verilog/gpio_axi_lite_if.v" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite/rtl/verilog/i2c_axi_lite.v" into library work
+INFO: [VRFC 10-311] analyzing module i2c_axi_lite_if
+INFO: [VRFC 10-311] analyzing module I2C
+INFO: [VRFC 10-311] analyzing module i2c_csr
+INFO: [VRFC 10-311] analyzing module i2c_axi_lite
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite/rtl/verilog/i2c_axi_lite_if.v" into library work
+INFO: [VRFC 10-311] analyzing module i2c_axi_lite_if
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'i2c_axi_lite_if' [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite/rtl/verilog/i2c_axi_lite_if.v:8]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite/rtl/verilog/i2c_core.v" into library work
+INFO: [VRFC 10-311] analyzing module I2C
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'I2C' [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite/rtl/verilog/i2c_core.v:5]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite/rtl/verilog/i2c_csr.v" into library work
+INFO: [VRFC 10-311] analyzing module i2c_csr
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'i2c_csr' [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite/rtl/verilog/i2c_csr.v:8]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/rtl/verilog/i2c_master_axi_lite.v" into library work
+INFO: [VRFC 10-311] analyzing module i2c_axi_lite_if_a
+INFO: [VRFC 10-311] analyzing module i2c_master_csr
+INFO: [VRFC 10-311] analyzing module i2c_master_byte
+INFO: [VRFC 10-311] analyzing module i2c_master_core
+INFO: [VRFC 10-311] analyzing module i2c_fifo_sync_small
+INFO: [VRFC 10-311] analyzing module i2c_master_axi_lite
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/rtl/verilog/i2c_axi_lite_a.v" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/rtl/verilog/i2c_master_csr.v" into library work
+INFO: [VRFC 10-311] analyzing module i2c_master_csr
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'i2c_master_csr' [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/rtl/verilog/i2c_master_csr.v:27]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/rtl/verilog/i2c_master_core.v" into library work
+INFO: [VRFC 10-311] analyzing module i2c_master_byte
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'i2c_master_byte' [../../../ips/ex_i2c_master_axi_lite/rtl/verilog/i2c_master_byte.v:11]
+INFO: [VRFC 10-311] analyzing module i2c_master_core
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'i2c_master_core' [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/rtl/verilog/i2c_master_core.v:20]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/rtl/verilog/i2c_fifo_sync_small.v" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/rtl/verilog/i2c_master_define.v" into library work
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 2 for port 's_axi_lite_rdata' [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/rtl/verilog/riscv_cache_soc.v:996]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 's_axi_lite_rresp' [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/rtl/verilog/riscv_cache_soc.v:997]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 32 for port 's_axi_rdata' [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/rtl/verilog/gpio_axi_lite.v:106]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 2 for port 's_axi_rresp' [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/rtl/verilog/gpio_axi_lite.v:107]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 32 for port 'bram_addr' [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/rtl/verilog/gpio_axi_lite.v:110]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 32 for port 'bram_wr_data' [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/rtl/verilog/gpio_axi_lite.v:111]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 32 for port 'bram_rd_data' [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/rtl/verilog/gpio_axi_lite.v:112]
+WARNING: [VRFC 10-3645] port 'sda' remains unconnected for this instance [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/hw/bench.riscv_cache_soc/verilog/top.sv:97]
+WARNING: [VRFC 10-3645] port 'uart_dtr' remains unconnected for this instance [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/uart_axi_lite/rtl/verilog/uart_axi_lite.v:114]
+WARNING: [VRFC 10-5021] port 'uart_dsr' is not connected on this instance [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/uart_axi_lite/rtl/verilog/uart_axi_lite.v:114]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.riscv_alu
+Compiling module work.riscv_exec
+Compiling module work.riscv_decoder
+Compiling module work.riscv_decode_default
+Compiling module work.riscv_mmu(MEM_CACHE_ADDR_MIN=32'...
+Compiling module work.riscv_lsu_fifo(WIDTH=36,DEPTH=2,...
+Compiling module work.riscv_lsu(MEM_CACHE_ADDR_MIN=32'...
+Compiling module work.riscv_csr_regfile
+Compiling module work.riscv_csr(SUPPORT_SUPER=0)
+Compiling module work.riscv_multiplier
+Compiling module work.riscv_divider
+Compiling module work.riscv_pipe_ctrl
+Compiling module work.riscv_regfile_default
+Compiling module work.riscv_issue
+Compiling module work.riscv_fetch(SUPPORT_MMU=0)
+Compiling module work.riscv_core(MEM_CACHE_ADDR_MIN=32...
+Compiling module work.icache_tag_ram
+Compiling module work.icache_data_ram
+Compiling module work.icache_default
+Compiling module work.dcache_if_pmem_fifo(WIDTH=70,DEP...
+Compiling module work.dcache_if_pmem_fifo(WIDTH=11,DEP...
+Compiling module work.dcache_if_pmem
+Compiling module work.dcache_pmem_mux
+Compiling module work.dcache_mux
+Compiling module work.dcache_core_tag_ram
+Compiling module work.dcache_core_data_ram
+Compiling module work.dcache_core_default
+Compiling module work.dcache_axi_fifo(WIDTH=77,DEPTH=2...
+Compiling module work.dcache_axi_axi
+Compiling module work.dcache_axi
+Compiling module work.dcache
+Compiling module work.riscv_cache_core(MEM_CACHE_ADDR_...
+Compiling module work.axi_fifo_sync(FDW=6,FAW=4)
+Compiling module work.axi_arbiter_mtos_m3(WIDTH_CID=2)
+Compiling module work.axi_mtos_m3(SLAVE_EN=1,WIDTH_CID...
+Compiling module work.axi_mtos_m3(SLAVE_EN=1,WIDTH_CID...
+Compiling module work.axi_mtos_m3(SLAVE_EN=1,WIDTH_CID...
+Compiling module work.axi_mtos_m3(WIDTH_CID=2,WIDTH_DS...
+Compiling module work.axi_arbiter_stom_s3
+Compiling module work.axi_stom_s3(WIDTH_CID=2,WIDTH_DS...
+Compiling module work.axi_default_slave(WIDTH_CID=2)
+Compiling module work.axi_fifo_sync(FDW=4,FAW=4)
+Compiling module work.axi_wid
+Compiling module work.axi_switch_m3s3(WIDTH_CID=2,WIDT...
+Compiling module work.mem_axi_core(WIDTH_AD=15)
+Compiling module work.mem_axi(AXI_WIDTH_ID=6,AXI_WIDTH...
+Compiling module work.axi4_to_lite_fifo_sync(FDW=36,FA...
+Compiling module work.axi4_to_lite_write(AXI_WIDTH_ID=...
+Compiling module work.axi4_to_lite_fifo_sync(FDW=34,FA...
+Compiling module work.axi4_to_lite_read(AXI_WIDTH_ID=6...
+Compiling module work.axi4_to_lite(AXI_WIDTH_ID=6)
+Compiling module work.amba_axi_lite_m6_core(P_ADDR_STA...
+Compiling module work.amba_axi_lite_m6(P0_ADDR_START=3...
+Compiling module work.pic_axi_lite_if
+Compiling module work.pic_core(NUM_IRQ=5)
+Compiling module work.pic_axi_lite(NUM_IRQ=5)
+Compiling module work.timer_axi_lite_if
+Compiling module work.timer_tick
+Compiling module work.timer_axi_lite
+Compiling module work.uart_axi_lite_if
+Compiling module work.uart_csr_default
+Compiling module work.uart_tx
+Compiling module work.uart_fifo_sync_wt(FDW=9,FAW=4)
+Compiling module work.uart_rx
+Compiling module work.uart_core
+Compiling module work.uart_axi_lite(CLK_FREQ=100000000...
+Compiling module work.gpio_axi_lite_if
+Compiling module work.gpio_csr
+Compiling module work.gpio_axi_lite
+Compiling module work.IOBUF
+Compiling module work.i2c_axi_lite_if_a
+Compiling module work.i2c_master_csr(P_I2C_NUM=1)
+Compiling module work.i2c_master_byte
+Compiling module work.i2c_master_core
+Compiling module work.i2c_fifo_sync_small(FDW=13,FAW=3...
+Compiling module work.i2c_fifo_sync_small(FDW=9,FAW=3)
+Compiling module work.i2c_master_axi_lite_default
+Compiling module work.riscv_cache_soc(MEM_ONCHIP_SIZE=...
+Compiling module work.tester
+Compiling module work.tty
+Compiling module work.i2c_slave_if(P_I2C_DEV_ADDR=7'b1...
+Compiling module work.i2c_slave_mem
+Compiling module work.i2c_slave(P_I2C_DEV_ADDR=7'b1010...
+Compiling module work.top
+Built simulation snapshot top

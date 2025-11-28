@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Nov 19 09:25:11 2025
+# Process ID: 123665
+# Current directory: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite/sim
+# Command line: vivado -mode batch -source xsim_run.tcl
+# Log file: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite/sim/vivado.log
+# Journal file: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite/sim/vivado.jou
+# Running On: sogang-500TGA-500SGA, OS: Linux, CPU Frequency: 800.000 MHz, CPU Physical cores: 10, Host memory: 16429 MB
+#-----------------------------------------------------------
+source xsim_run.tcl
+# set sim_dir [file dirname [info script]]
+# set rtl_dir [file normalize "$sim_dir/../rtl/verilog"]
+# exec xvlog -sv \
+#     [file join $rtl_dir i2c_core.v] \
+#     [file join $rtl_dir i2c_csr.v] \
+#     [file join $rtl_dir i2c_axi_lite_if.v] \
+#     [file join $sim_dir i2c_tb.v]
+# exec xelab iic_controller_tb -s i2c_tb_sim --debug typical
+# set run_script [file join $sim_dir xsim_do.tcl]
+# if {![file exists $run_script]} {
+#     puts "WARNING: $run_script not found; creating default"
+#     set fp [open $run_script w]
+#     puts $fp {log_wave -recursive /*}
+#     puts $fp {run 20 us}
+#     puts $fp {write_vcd i2c_tb.vcd}
+#     puts $fp {exit}
+#     close $fp
+# }
+# exec xsim i2c_tb_sim -tclbatch $run_script
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 19 09:25:22 2025...

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Nov 18 19:51:37 2025
+# Process ID: 111363
+# Current directory: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite
+# Command line: vivado -mode batch -source xsim_run.tcl
+# Log file: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite/vivado.log
+# Journal file: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite/vivado.jou
+# Running On: sogang-500TGA-500SGA, OS: Linux, CPU Frequency: 1241.872 MHz, CPU Physical cores: 10, Host memory: 16429 MB
+#-----------------------------------------------------------
+source xsim_run.tcl
+couldn't read file "xsim_run.tcl": no such file or directory
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 18 19:51:47 2025...

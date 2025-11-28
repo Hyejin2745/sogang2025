@@ -1,0 +1,11 @@
+//-----------------------------------------
+        ./sim_define.v
+//-----------------------------------------
++incdir+../../bench/verilog
+        ../../bench/verilog/top.sv
+        ../../bench/verilog/bfm_axi.sv
+        ../../bench/verilog/mem_axi_lite.v
+//-----------------------------------------
++incdir+../../rtl/verilog
+        ../../rtl/verilog/axi4_to_lite.v
+//-----------------------------------------

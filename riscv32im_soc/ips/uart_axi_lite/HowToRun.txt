@@ -1,0 +1,39 @@
+
+I. RTL simulation
+   - bench, rtl, sim
+
+   $ cd sim/xsim
+   $ set_vivado
+   $ make
+
+   $ cd sim/iverilog
+   $ make
+
+II. HW-SW cosim with DPI/VPI C (xsim or iverilog)
+   - bench.cosim, rtl, sim.cosim, c.cosim
+
+   $ cd c.cosim
+   $ set_vivado
+   $ make SIMULATOR=xsim sw
+   $ make SIMULATOR=xsim hw
+   $ make SIMULATOR=xsim run
+
+   $ cd c.cosim
+   $ make SIMULATOR=iverilog sw
+   $ make SIMULATOR=iverilog hw
+   $ make SIMULATOR=iverilog run
+
+III. HW-SW cosim with DPI/VPI Python (xsim or iverilog)
+   - bench.cosim, rtl, sim.cosim, python.cosim
+
+   $ cd python.cosim
+   $ set_vivado
+   $ make SIMULATOR=xsim hw
+   $ make SIMULATOR=xsim run
+
+   $ cd python.cosim
+   $ make SIMULATOR=iverilog hw
+   $ make SIMULATOR=iverilog run
+
+Good luck
+

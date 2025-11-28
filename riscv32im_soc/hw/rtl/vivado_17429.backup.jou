@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Oct  2 15:15:29 2025
+# Process ID: 17429
+# Current directory: /home/sogang/work/codes/riscv_platform/riscv32im_soc/hw/rtl
+# Command line: vivado
+# Log file: /home/sogang/work/codes/riscv_platform/riscv32im_soc/hw/rtl/vivado.log
+# Journal file: /home/sogang/work/codes/riscv_platform/riscv32im_soc/hw/rtl/vivado.jou
+# Running On: sogang-500TGA-500SGA, OS: Linux, CPU Frequency: 800.172 MHz, CPU Physical cores: 10, Host memory: 16429 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/sogang/work/codes/riscv_platform/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.xpr
+update_compile_order -fileset sources_1
+open_bd_design {/home/sogang/work/codes/riscv_platform/riscv32im_soc/hw/impl.ip_integrator/zed.confmc/project_design_riscv_cache/project_design_riscv_cache.srcs/sources_1/bd/design_riscv_cache/design_riscv_cache.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0
+endgroup
+set_property location {3.5 1351 737} [get_bd_cells axi_gpio_0]
+set_property location {3 1361 790} [get_bd_cells axi_gpio_0]
+delete_bd_objs [get_bd_cells axi_gpio_0]

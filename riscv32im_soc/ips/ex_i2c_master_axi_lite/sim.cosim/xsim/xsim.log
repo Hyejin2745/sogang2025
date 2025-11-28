@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# xsim v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Nov 24 10:48:00 2025
+# Process ID: 89758
+# Current directory: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/sim.cosim/xsim
+# Command line: xsim -mode tcl -source {xsim.dir/top_snapshot/xsim_script.tcl}
+# Log file: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/sim.cosim/xsim/xsim.log
+# Journal file: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/sim.cosim/xsim/xsim.jou
+# Running On: sogang-500TGA-500SGA, OS: Linux, CPU Frequency: 3856.106 MHz, CPU Physical cores: 10, Host memory: 16429 MB
+#-----------------------------------------------------------
+source xsim.dir/top_snapshot/xsim_script.tcl
+# xsim {top_snapshot} -autoloadwcfg -tclbatch {xsim_run.tcl}
+Time resolution is 1 ps
+source xsim_run.tcl
+## run all
+VCD dump enable.
+top.u_i2c_master SCL 5000.00-nsec 0.20-MHz
+$finish called at time : 4745850 ns : File "/home/sogang/work/cosim_bfm_library/include/verilog/cosim_bfm_axi_core.v" Line 354
+Memory in use : 223720 KB (peak memory: 223720 KB)     CPU usage : 2260 ms
+## quit
+INFO: [Common 17-206] Exiting xsim at Mon Nov 24 10:48:07 2025...

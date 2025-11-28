@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Nov 19 09:49:07 2025
+# Process ID: 126307
+# Current directory: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite/sim
+# Command line: vivado -mode batch -source xsim_run.tcl
+# Log file: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite/sim/vivado.log
+# Journal file: /home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/i2c_axi_lite/sim/vivado.jou
+# Running On: sogang-500TGA-500SGA, OS: Linux, CPU Frequency: 2147.047 MHz, CPU Physical cores: 10, Host memory: 16429 MB
+#-----------------------------------------------------------
+source xsim_run.tcl

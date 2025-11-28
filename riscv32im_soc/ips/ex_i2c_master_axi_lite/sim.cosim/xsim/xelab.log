@@ -1,0 +1,57 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2021.2/bin/unwrapped/lnx64.o/xelab -prj xsim.prj -debug typical -sv_root /home/sogang/work/cosim_bfm_library/lib/xsim/linux_x86_64 -sv_lib cosim_dpi_bfm.so top -s top_snapshot 
+Multi-threading is on. Using 14 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/bench.cosim/verilog/top.sv" into library work
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2458] undeclared symbol IRQ, assumed default net type wire [/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/bench.cosim/verilog/top.sv:122]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/bench.cosim/verilog/cosim_bfm_axi_lite.sv" into library work
+INFO: [VRFC 10-311] analyzing module cosim_bfm_axi_lite
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/bench.cosim/verilog/axi4_to_lite.v" into library work
+INFO: [VRFC 10-311] analyzing module axi4_to_lite
+INFO: [VRFC 10-311] analyzing module axi4_to_lite_write
+INFO: [VRFC 10-311] analyzing module axi4_to_lite_read
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/beh/verilog/i2c_slave.v" into library work
+INFO: [VRFC 10-311] analyzing module i2c_slave_if
+INFO: [VRFC 10-311] analyzing module i2c_slave_mem
+INFO: [VRFC 10-311] analyzing module i2c_slave
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/work/cosim_bfm_library/include/verilog/cosim_bfm_axi_dpi.sv" into library work
+INFO: [VRFC 10-311] analyzing module cosim_bfm_axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/ex_i2c_master_axi_lite/rtl/verilog/i2c_master_axi_lite.v" into library work
+INFO: [VRFC 10-311] analyzing module i2c_axi_lite_if_a
+INFO: [VRFC 10-311] analyzing module i2c_master_csr
+INFO: [VRFC 10-311] analyzing module i2c_master_byte
+INFO: [VRFC 10-311] analyzing module i2c_master_core
+INFO: [VRFC 10-311] analyzing module i2c_fifo_sync_small
+INFO: [VRFC 10-311] analyzing module i2c_master_axi_lite
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package work.$unit_top_sv
+Compiling module work.cosim_bfm_axi(AXI_WIDTH_ID=2)
+Compiling module work.axi4_to_lite_write_default
+Compiling module work.axi4_to_lite_read_default
+Compiling module work.axi4_to_lite(AXI_WIDTH_ID=2)
+Compiling module work.cosim_bfm_axi_lite_default
+Compiling module work.i2c_axi_lite_if_a
+Compiling module work.i2c_master_csr(P_CLK_FREQ=100000...
+Compiling module work.i2c_master_byte
+Compiling module work.i2c_master_core
+Compiling module work.i2c_fifo_sync_small(FDW=13,FAW=3...
+Compiling module work.i2c_fifo_sync_small(FDW=9,FAW=3)
+Compiling module work.i2c_master_axi_lite(P_CLK_FREQ=1...
+Compiling module work.i2c_slave_if(P_I2C_DEV_ADDR=7'b1...
+Compiling module work.i2c_slave_mem(MEM_SIZE=10'b01000...
+Compiling module work.i2c_slave(P_I2C_DEV_ADDR=7'b1000...
+Compiling module work.i2c_slave_if(P_I2C_DEV_ADDR=7'b1...
+Compiling module work.i2c_slave_mem(ADDR_LEN=16,MEM_SI...
+Compiling module work.i2c_slave(P_I2C_DEV_ADDR=7'b1000...
+Compiling module work.i2c_slave_if(P_I2C_DEV_ADDR=10'b...
+Compiling module work.i2c_slave(P_I2C_DEV_ADDR=10'b100...
+Compiling module work.i2c_slave_if(P_I2C_DEV_ADDR=10'b...
+Compiling module work.i2c_slave(P_I2C_DEV_ADDR=10'b100...
+Compiling module work.top
+Built simulation snapshot top_snapshot

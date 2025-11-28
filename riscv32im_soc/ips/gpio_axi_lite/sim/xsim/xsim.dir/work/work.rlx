@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 19 2021
+02:56:52
+/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/bench/verilog/tasks_axi_lite.sv,1758697774,verilog,,,,,,,,,,,,
+/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/bench/verilog/tester.sv,1758697774,systemVerilog,,/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/rtl/verilog/gpio_axi_lite.v,/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/bench/verilog/tasks_axi_lite.sv,tester,,,../../bench/verilog;../../rtl/verilog,SIM=1;VCD=1,,,,
+/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/bench/verilog/top.sv,1758697774,systemVerilog,,/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/bench/verilog/tester.sv,,top,,,../../bench/verilog;../../rtl/verilog,SIM=1;VCD=1,,,,
+/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/rtl/verilog/gpio_axi_lite.v,1763981594,systemVerilog,,,/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/rtl/verilog/gpio_axi_lite_if.v,gpio_axi_lite;gpio_csr,,,../../bench/verilog;../../rtl/verilog,SIM=1;VCD=1,,,,
+/home/sogang/Desktop/riscv_platform_1020/riscv32im_soc/ips/gpio_axi_lite/rtl/verilog/gpio_axi_lite_if.v,1761094085,verilog,,,,gpio_axi_lite_if,,,,,,,,

@@ -1,0 +1,16 @@
+
+ rtl/         riscv_cache_soc
+ design/      fpga
+
+ impl.ip_integrator/        'rtl/verilog/riscv_cache_soc.v'
+                            implementation using IP integrator
+ impl/                      syn & impl of 'design/verilog/fpga_zed.v'
+
+ bench.ricv_cache_soc/
+ sim.ricv_cache_soc/
+ syn.ricv_cache_soc/
+
+ beh/                       CON-FMC model
+ bench.fpga_zed/            ZedBoard
+ sim.fpga_zed/xsim          (not iverilog since FPGA specific)
+                            it only test memory through CON-FMC behavioral model
